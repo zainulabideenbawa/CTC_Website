@@ -2881,7 +2881,7 @@ i::before,i::after{
    background: url(../images/page-header-2.jpg)no-repeat;
 }
 .rotating-slider {
-   background: url(../images/pink_background1.jpg)no-repeat;
+   background: url(../images/banner-fade.jpg)no-repeat;
 }
 .rotating-slider.studio-ver{
    background: url(../images/studio-fade.jpg)no-repeat;
@@ -3185,13 +3185,13 @@ iframe  {
 #partners-slider .logo-item {
 	width: 160px;
     height: 60px;
-	overflow: visible;
+	overflow: hidden;
 }
 #partners-slider .logo-item, #partners-slider  .logo-item > img{
    display: inline-block;
 }
 .logo-item > img {
-	width: 98%;
+	width: 40% !important;
    position: absolute;
    top: 50%; left: 50%;
    -webkit-transform: translate(-50%,-50%);
